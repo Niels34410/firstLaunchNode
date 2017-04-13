@@ -1,0 +1,26 @@
+{
+  "name": "nodejsbeziers",
+  "version": "0.1.0",
+  "description": "prise en main nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niels34410/firstLaunchNode.git"
+  },
+  "dependencies":{
+    "express": "4.15.2"
+  },
+  "keywords": [
+    "texte"
+  ],
+  "author": "niels",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niels34410/firstLaunchNode/issues"
+  },
+  "homepage": "https://github.com/Niels34410/firstLaunchNode#readme"
+}
