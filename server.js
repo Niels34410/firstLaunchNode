@@ -17,17 +17,17 @@
 //});
 var express = require('express');
 
-var server = express();
+var serveur = express();
 var routeToto = "/toto";
 
-server.get("/",function(request,response){
+serveur.get("/",function(request,response){
     response.sendFile(__dirname + "/views/index.html");
 });
-server.get(routeToto,function(request,response){
+serveur.get(routeToto,function(request,response){
     response.send("message venant de toto");
 });
-server.post("/toto",function(request,response){
+serveur.post("/toto",function(request,response){
     response.send("message venant de toto en post");
 });
 
-server.listen(12107);
+serveur.listen(process.env.PORT || 12107);
